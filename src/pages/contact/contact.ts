@@ -12,3 +12,5 @@ export class ContactPage {
   }
 
 }
+
+// Pasi Marttila. 1601790.

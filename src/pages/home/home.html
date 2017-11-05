@@ -5,13 +5,52 @@
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+<!-- THE START -->
+
+<h2>Welcome to my CV!</h2>
+  
+
+<!-- First box -->
+<ion-card>
+  <ion-card-header>
+    What is this?
+  </ion-card-header>
+  <ion-card-content>
+    This is an ionic app designed to function as a cv!<br>
+    This has been Deisgned and coded by Pasi Marttila, A student at Laurea, University of Applied Sciences.
+  </ion-card-content>
+</ion-card>
+
+<!-- Second box -->
+<ion-card>
+  <ion-card-header>
+    Me
+  </ion-card-header>
+  <ion-card-content>
+      Currently a student at Laurea University of Applied Sciences, studying business and information technology.<br>
+      A well-spoken man with a very rich international background.<br>
+      Studied all my of academic life in Finland, but lived quite a few years abroad as well<br>
+
+  </ion-card-content>
+</ion-card>
+
+
+
+<!-- Third box -->
+<ion-card>
+  <ion-card-header>
+    How to contact me
+  </ion-card-header>
+  <ion-card-content>
+    Clicking on the contact button will give a popup of my contact information
+    <!-- CONTACT BUTTON HERE. Message in home.ts -->
+    <button ion-button block (click)="showToast()">CONTACT</button>
+    <!-- CONTACT BUTTON HERE -->
+
+  </ion-card-content>
+</ion-card>
+
+
+<!-- THE END -->
 </ion-content>
+<!-- Pasi Marttila. 1601790. -->

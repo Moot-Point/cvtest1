@@ -12,3 +12,5 @@ export class AboutPage {
   }
 
 }
+
+// Pasi Marttila. 1601790.
